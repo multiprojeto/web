@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Layout com 4 Colunas de Links Animados</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Work sans', sans-serif;
+    background-color: #131313;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 23%; /* Ajustar a largura conforme necessário */
+    padding: 20px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li a {
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.column ul li a:hover {
+    transform: scale(2);
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h1>Cantareira</h1>
+            <ul>
+                <li><a href="https://iuruas.github.io/projetoweb/">Ascent</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+                <li><a href="#">Link 6</a></li>
+                <li><a href="#">Link 7</a></li>
+                <li><a href="#">Link 8</a></li>
+                <li><a href="#">Link 9</a></li>
+                <li><a href="#">Link 10</a></li>
+            </ul>
+        </div>
+        <div class="column">
+          <h1>Marquês</h1>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+            <li><a href="#">Link 6</a></li>
+            <li><a href="#">Link 7</a></li>
+            <li><a href="#">Link 8</a></li>
+            <li><a href="#">Link 9</a></li>
+            <li><a href="#">Link 10</a></li>
+          </ul>
+      </div>
+      <div class="column">
+        <h1>Paz</h1>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+          <li><a href="#">Link 5</a></li>
+          <li><a href="#">Link 6</a></li>
+          <li><a href="#">Link 7</a></li>
+          <li><a href="#">Link 8</a></li>
+          <li><a href="#">Link 9</a></li>
+          <li><a href="#">Link 10</a></li>
+        </ul>
+    </div>
+    <div class="column">
+      <h1>Pinheiros</h1>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 6</a></li>
+        <li><a href="#">Link 7</a></li>
+        <li><a href="#">Link 8</a></li>
+        <li><a href="#">Link 9</a></li>
+        <li><a href="#">Link 10</a></li>
+      </ul>
+  </div>
+        </div>
+</body>
+</html>
