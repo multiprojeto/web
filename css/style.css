@@ -3,7 +3,9 @@ body{
 	font-size: 14px;
 	margin: 0;
 }
-
+p{
+	text-align: justify;
+}
 * {
   box-sizing: border-box;
 }
@@ -52,6 +54,7 @@ body{
 /* Middle column */
 .column.middle {
   width: 40%;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
