@@ -193,3 +193,7 @@ ul li .descr::before {
 .credits a {
   color: var(--color);
 }
+
+a{
+  text-decoration: none;
+}
