@@ -9,6 +9,23 @@
   <link href="css/timeline.css" rel="stylesheet" type="text/css" />
   <link href="css/layout.css" rel="stylesheet" type="text/css" />
   <style> 
+  a {
+    width:70px;
+    height:47px;
+    position: relative;
+    font-weight:bold;
+    font-size:20px;
+    padding:10px;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+	padding: 0 .25rem;
+	margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  color: #fff;
+  box-shadow: inset 400px 0 0 0 #014d68;
+}
     #animated_div {
     width:70px;
     height:47px;
@@ -71,12 +88,12 @@
 <ul><!--
     <li style="--accent-color:#41516C">
         <div class="date">Cantareira</div>
-        <div class="title">2M1</div>
-        <div class="descr"><a href="#" id="animated_div" target="_blank">Link</a></div>
-        <div class="descr"><a href="#" id="animated_div" target="_blank">Link</a></div>
-        <div class="title">2M2</div>
-        <div class="descr"><a href="#" id="animated_div" target="_blank">Link</a></div>
-        <div class="descr"><a href="#" id="animated_div" target="_blank">Link</a></div>
+        <div class="title" id="animated_div">2M1</div>
+        <div class="descr"><a href="#" target="_blank">Link</a></div>
+        <div class="descr"><a href="#" target="_blank">Link</a></div>
+        <div class="title" id="animated_div">2M2</div>
+        <div class="descr"><a href="#" target="_blank">Link</a></div>
+        <div class="descr"><a href="#" target="_blank">Link</a></div>
       </li>
     <li style="--accent-color:#FBCA3E">
         <div class="date">Marquês</div>
@@ -102,24 +119,24 @@
     -->
     <li style="--accent-color:#1B5F8C">
         <div class="date">Pinheiros</div>
-        <div class="title">2M1</div>
-        <div class="descr"><a href="https://vicvazz.github.io/medicina/genetica.html" id="animated_div" target="_blank">NT Tech</a></div>
-        <div class="descr"><a href="https://school-web-project-nine.vercel.app/" id="animated_div">Dolphins</a></div>
-        <div class="descr"><a href="https://sofiaaaa123.github.io/techmotors/" id="animated_div">TechMotors</a></div>
-        <div class="descr"><a href="https://ximbinhagames.github.io/XIMBINHAMOTORS/" id="animated_div">Ximbinha Motors</a></div>
-        <div class="descr"><a href="https://mirelatanji.github.io/Bem-Star/" id="animated_div">Bem Star</a></div>
-        <div class="descr"><a href="https://victor0008.github.io/Astro-project-main-/" id="animated_div">Astro</a></div>
-        <div class="descr"><a href="https://kronowar.github.io/kronowar/" id="animated_div">KronoWar</a></div>
-        <div class="descr"><a href="https://brayomi.github.io/Projeto/" id="animated_div">Brayomi</a></div>
-        <div class="descr"><a href="https://kgnp.github.io/kgnpcompany/" id="animated_div">KGNP</a></div>
-        <div class="descr"><a href="https://bortolinx.github.io/trabalho/" id="animated_div">Luzzoya</a></div>
-        <div class="descr"><a href="https://camikier.github.io/genshinimpact/" id="animated_div">Twice</a></div>
-        <div class="title">2M2</div>
-        <div class="descr"><a href="https://nickousz.github.io/job/" id="animated_div" target="_blank">Monkeys</a></div>
-        <div class="descr"><a href="https://heitor-hl.github.io/Derrick-White/" id="animated_div" target="_blank">Derrick White</a></div>
-        <div class="descr"><a href="https://sooferreira.github.io/Intertech/" id="animated_div" target="_blank">InterTech</a></div>
-        <div class="descr"><a href="https://gi-mouraa.github.io/newmindset/" id="animated_div" target="_blank">NewMindSet</a></div>
-        <div class="descr"><a href="https://bnnywzy.github.io/stylesphere/" id="animated_div" target="_blank">Style Sphere</a></div>
+        <div class="title" id="animated_div">2M1</div>
+        <div class="descr"><a href="https://vicvazz.github.io/medicina/genetica.html" target="_blank">NT Tech</a></div>
+        <div class="descr"><a href="https://school-web-project-nine.vercel.app/" target="_blank">Dolphins</a></div>
+        <div class="descr"><a href="https://sofiaaaa123.github.io/techmotors/" target="_blank">TechMotors</a></div>
+        <div class="descr"><a href="https://ximbinhagames.github.io/XIMBINHAMOTORS/" target="_blank">Ximbinha Motors</a></div>
+        <div class="descr"><a href="https://mirelatanji.github.io/Bem-Star/" target="_blank">Bem Star</a></div>
+        <div class="descr"><a href="https://victor0008.github.io/Astro-project-main-/" target="_blank">Astro</a></div>
+        <div class="descr"><a href="https://kronowar.github.io/kronowar/" target="_blank">KronoWar</a></div>
+        <div class="descr"><a href="https://brayomi.github.io/Projeto/" target="_blank">Brayomi</a></div>
+        <div class="descr"><a href="https://kgnp.github.io/kgnpcompany/" target="_blank">KGNP</a></div>
+        <div class="descr"><a href="https://bortolinx.github.io/trabalho/" target="_blank">Luzzoya</a></div>
+        <div class="descr"><a href="https://camikier.github.io/genshinimpact/" target="_blank">Twice</a></div>
+        <div class="title" id="animated_div">2M2</div>
+        <div class="descr"><a href="https://nickousz.github.io/job/" target="_blank">Monkeys</a></div>
+        <div class="descr"><a href="https://heitor-hl.github.io/Derrick-White/" target="_blank">Derrick White</a></div>
+        <div class="descr"><a href="https://sooferreira.github.io/Intertech/" target="_blank">InterTech</a></div>
+        <div class="descr"><a href="https://gi-mouraa.github.io/newmindset/" target="_blank">NewMindSet</a></div>
+        <div class="descr"><a href="https://bnnywzy.github.io/stylesphere/" target="_blank">Style Sphere</a></div>
     </li>
     
 </ul>
